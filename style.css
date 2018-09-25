@@ -221,3 +221,23 @@ nav.sub-nav span.parent-link a {
     display: inline-block;
     padding: 15px;
 }
+
+.showcase {
+    background-color: #fff;
+    padding: 15px;
+}
+
+.box {
+    width: 32%;
+    float: left;
+    text-align: center;
+    background-color: #fff;
+}
+
+.box:not(:first-child) {
+    margin-left: 1%;
+}
+
+.box .textwidget {
+    padding: 10px;
+}
