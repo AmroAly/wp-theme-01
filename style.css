@@ -7,6 +7,9 @@
     Version: 1.0
 */
 
+* {
+    word-wrap: break-word;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #333;

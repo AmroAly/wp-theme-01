@@ -16,6 +16,21 @@
 
     add_action('after_setup_theme', 'adv_theme_support');
 
+    // Widget Locations
+    function init_widgets($id) {
+        register_sidebar([
+            'name' => 'Sidebar',
+            'id'   => 'sidebar',
+            'before_widget' => '<div class="block side-widget">',
+            'after_widget'  => '</div>',
+            'before_title'   => '<h3>',
+            'after_title'   => '</h3>'
+        ]);
+    }
+
+    // Init our widgets
+    add_action('widgets_init', 'init_widgets');
+
     // Excerpt
     function adv_excerpt_length($length) {
         return 30;
