@@ -1,0 +1,220 @@
+
+/*
+    Theme Name: Advanced WP
+    Author: Amr Aly
+    Author URI: https://github.com/AmroAly
+    Description: Advanced wordpress Theme
+    Version: 1.0
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc17;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #009acd;
+}
+
+a:hover {
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    overflow: auto;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 30px;
+    border-bottom: 3px solid #009acd;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    color: #009acd;
+    float: left;
+}
+
+header h1 a:hover {
+    color: #009acd;
+}
+
+header small {
+    color: #666;
+    margin-left: 1px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+header .h-right {
+    float: right;
+}
+
+header .h-right input[type='text'] {
+    width: 250px;
+    padding: 5px;
+}
+
+nav.nav.main-nav {
+    background-color: steelblue;
+}
+
+nav.nav li{
+    float: left;
+}
+
+nav.nav li:not(:first-child) {
+    margin-left: 10px;
+}
+
+nav.nav li a {
+    display: inline-block;
+    padding: 15px 10px 15px 0;
+    color: #fff;
+}
+
+.content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 2em;
+}
+
+.main  {
+    float: left;
+    width: 65%;
+}
+
+/* .clr {
+    clear: both;
+} */
+
+.sidebar {
+    width: 30%;
+    float: right;
+    background-color: #fff;
+}
+
+a.button, .button:hover {
+    color: #009acd;
+}
+
+.sidebar .block {
+    padding: 15px;
+}
+
+article.post {
+    margin-bottom: 50px;
+    background-color: #fff;
+    padding: 20px;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+article.post:hover {
+    box-shadow: 1px 11px 10px #d9d9d9;
+}
+
+article.post h2 {
+    margin: 0;
+}
+
+article.post .meta {
+    margin: 0;
+    color: #666;
+    font-size: 13px;
+}
+
+
+
+footer.main-footer {
+    background-color: #f4f4f4;
+}
+
+footer .container {
+    margin: 0 auto;
+}
+
+ .f-left {
+    float: left;
+    font-size: 13px;
+}
+
+.f-right {
+    float: right;
+}
+
+.f-left, .f-right {
+    padding: 50px 0;
+}
+
+.f-right ul li {
+    display: inline-block;
+}
+
+.f-right ul li a {
+    padding: 10px;
+    display: block;
+    font-size: 13px;
+}
+
+.featured-image img{
+    width: 100%;
+    height: auto;
+}
+
+article.post.post-aside small {
+    font-weight: bold;
+}
+
+article.post.post-aside .well {
+    background-color: #e0eefc;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+article.post.post-link .well {
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+article.post.post-gallery {
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+article.post.post-gallery .well img {
+    border: none;
+}
+
+.phone {
+    background-color: #f4f4f4;
+    padding: 8px;
+    font-weight: bold;
+}
+
+nav.sub-nav ul li a {
+    color: #333;
+}
+
+nav.sub-nav span.parent-link a {
+    display: inline-block;
+    padding: 15px;
+}
